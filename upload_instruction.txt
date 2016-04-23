@@ -10,10 +10,11 @@ git remote -v # list
 git push jizzpublic master #syntax: git push [website] [branch]
 
 # After making any change
+git status
 git add
 git status
 git commit -m 'new message'
 git log
-git remote add
+git push jizzpublic master
 
 
