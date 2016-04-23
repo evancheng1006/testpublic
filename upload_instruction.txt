@@ -1,0 +1,10 @@
+mkdir testpublic
+cd testpublic
+git init
+git add tt.cpp
+git status
+git commit -m 'testpublic message before midterm' # save
+git log
+git remote add jizzpublic https://github.com/evancheng1006/testpublic.git #add
+git remote -v # list
+git push jizzpublic master #syntax: git push [website] [branch]
