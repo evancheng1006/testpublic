@@ -22,4 +22,7 @@ git tag -a [tag name] [save point (very long number)] -m 'my message'
 git tag -l # list
 git push jizzpublic [tag name]
 
+# Remove tag
+git tag -d [tag name]
+git push jizzpublic :[tag name]
 
