@@ -17,4 +17,9 @@ git commit -m 'new message'
 git log
 git push jizzpublic master
 
+# Add tag
+git tag -a [tag name] [save point (very long number)] -m 'my message'
+git tag -l # list
+git push jizzpublic [tag name]
+
 
