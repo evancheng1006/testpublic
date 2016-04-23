@@ -8,3 +8,12 @@ git log
 git remote add jizzpublic https://github.com/evancheng1006/testpublic.git #add
 git remote -v # list
 git push jizzpublic master #syntax: git push [website] [branch]
+
+# After making any change
+git add
+git status
+git commit -m 'new message'
+git log
+git remote add
+
+
